@@ -1,0 +1,151 @@
+
+
+body{
+    color: #ffffff;
+    line-height: 2; 
+    background-image: url(../imagens/5137894.jpg);
+    background-size: cover;
+    background-position: center left;
+    font-family: 'Open Sans';
+    letter-spacing: 1px;
+
+}
+
+.main-header-perfil{
+    width: 10em;
+    border-radius: 5%;
+}
+
+.main-header-icons{
+    list-style-type: none;
+    font-size: 150%;
+    padding-top: 50px;
+    padding: 0;
+}
+
+.main-header-icons li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.main-header-icons a{
+    color: azure;
+}
+.main-header-icons a:hover{
+    color: aquamarine;
+    transition: color .2 linear .9;
+}
+
+.main-header p{
+    font-size: 20px;
+    color: rgb(196, 196, 196);
+}
+
+.main-header{
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    padding: 100px 54px 72px;
+    text-align: center;
+    background-image: url(../imagens/overlay.png);
+    background-color: rgb(24, 23, 23);
+}
+
+.main-header h1{
+    font-weight: normal;
+    color: rgb(196, 196, 196);
+}
+
+.main-header strong{
+    color: white;
+}
+
+address{
+    text-align: center;
+}
+.fa-evelope{
+    color: aliceblue;
+}
+
+.main-content{
+    width: 65%;
+    margin-left: 31%;
+    padding: 124px 56px 72px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+
+.main-content p{
+    font-size: 23px;
+    line-height: 1.5;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.main-header-section hr{
+    margin-top: 110px;
+    color: rgb(255, 255, 255);
+}
+
+.projects h2{
+    letter-spacing: 5px;
+    margin-top: 90px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.projects-finely{
+    width: 20%;
+    text-align: center;
+    overflow: auto;
+    float: left;
+    padding-left: 10%;
+}
+
+.projects-finely img{
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.projects-finely a:hover{
+    opacity : 0.9;
+}
+
+.project-tittle{
+    background: grey;
+    padding: 10px;
+    margin-bottom: 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.projects hr{
+    margin-top: 600px;
+}
+
+.escolaridade-exeperiencias{
+    overflow: auto;
+}
+
+.experiencias{
+    width: 50%;
+    float: left;
+}
+
+.escolaridade{
+    width: 50%;
+    float: left;
+}
+
+.escolaridade-exeperiencias p{
+    font-size: 15px;
+}
+
+.escolaridade-exeperiencias li{
+    font-size: 12px;
+}
